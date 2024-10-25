@@ -45,6 +45,9 @@
     installPhase = ''
       mkdir $out
       cp -r assets $out
+
+      cp -r themes $out
+
       cp -r scss $out
       cp -r widget $out
       cp -r services $out
